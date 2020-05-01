@@ -1,0 +1,37 @@
+html, body, #app, .main-container {
+  height: 100%;
+}
+
+.main-container {
+  position: relative;
+}
+  
+
+.router-view {
+  min-height: 100%;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+  
+
+.clearfix {
+  &:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}

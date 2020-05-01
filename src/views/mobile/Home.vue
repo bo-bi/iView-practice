@@ -1,6 +1,6 @@
 <template>
   <div>
-    home
+    这是移动端的 Home 页面
   </div>
 </template>
 

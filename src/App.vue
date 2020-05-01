@@ -1,32 +1,62 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <!-- <div class="main-container">
+      <router-view class="router-view"></router-view> 
+    </div> -->
+
+    <!-- <table-demo1></table-demo1> -->
+    <!-- <table-demo2></table-demo2> -->
+    <!-- <table-demo3></table-demo3> -->
+    <!-- <table-render></table-render> -->
+
+    <!-- form start-->
+    <!-- <form-demo1></form-demo1> -->
+    <!-- <form-demo2></form-demo2> -->
+    <!-- <form-demo3></form-demo3> -->
+    <!-- form end-->
+
+    <!-- modal start-->
+    <!-- <modal-demo1></modal-demo1> -->
+    <!-- modal end-->
+
+    <class></class>
   </div>
 </template>
 
-<style lang="less">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import TableDemo1 from '@/demo/table/demo1.vue'
+import TableDemo2 from '@/demo/table/demo2.vue'
+import TableDemo3 from '@/demo/table/demo3.vue'
+import TableRender from '@/demo/table/render.vue'
 
-#nav {
-  padding: 30px;
+import FormDemo1 from '@/demo/form/demo1.vue'
+import FormDemo2 from '@/demo/form/demo2.vue'
+import FormDemo3 from '@/demo/form/demo3.vue'
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+import ModalDemo1 from '@/demo/modal/demo1.vue'
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+import Class from '@/class/index.vue'
+
+export default {
+  name: 'app',
+  components: {
+    TableDemo1,
+    TableDemo2,
+    TableDemo3,
+    TableRender,
+
+    FormDemo1,
+    FormDemo2,
+    FormDemo3,
+
+    ModalDemo1,
+    
+    Class,
   }
 }
+</script>
+
+<style>
+  @import './common/reset.less';
+  @import './common/global.less';
 </style>

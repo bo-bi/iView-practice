@@ -1,7 +1,5 @@
 <template>
-  <div>
-    home
-  </div>
+  <div>这是后台管理页面</div>
 </template>
 
 <script>
