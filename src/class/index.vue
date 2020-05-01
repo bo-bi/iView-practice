@@ -18,6 +18,8 @@
     <class-table-order-filter-qianduan  v-if="currentClass === 'table-order-filter-qianduan'"></class-table-order-filter-qianduan>
 
     <class-table-edit-danyuange v-if="currentClass === 'table-edit-danyuange'"></class-table-edit-danyuange>
+
+    <class-table-edit-hang v-if="currentClass === 'table-edit-hang'"></class-table-edit-hang>
     <!-- table end-->
   </div>
 </template>
@@ -30,11 +32,12 @@ import ClassTable from './class-table'
 import ClassTableOrderFilter from './class-table-orderAndfilter'
 import ClassTableOrderFilterQianduan from './class-table-orderAndfilter-qianduan'
 import ClassTableEditDanyuange from './class-table-edit-danyuange'
+import ClassTableEditHang from './class-table-edit-hang'
 
 export default {
   data() {
     return {
-      currentClass: 'table-edit-danyuange'
+      currentClass: 'table-edit-hang'
     }
   },
 
@@ -48,6 +51,7 @@ export default {
     ClassTableOrderFilterQianduan,
 
     ClassTableEditDanyuange,
+    ClassTableEditHang,
   }
 }
 </script>
