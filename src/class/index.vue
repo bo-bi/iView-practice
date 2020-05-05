@@ -20,7 +20,21 @@
     <class-table-edit-danyuange v-if="currentClass === 'table-edit-danyuange'"></class-table-edit-danyuange>
 
     <class-table-edit-hang v-if="currentClass === 'table-edit-hang'"></class-table-edit-hang>
+
+    <class-table-outer v-if="currentClass === 'table-outer'"></class-table-outer>
     <!-- table end-->
+
+    <!-- Fomr start-->
+    <class-form v-if="currentClass === 'form'"></class-form>
+    <class-form-validate v-if="currentClass === 'form-validate'"></class-form-validate>
+    <class-form-id v-if="currentClass === 'form-id'"></class-form-id>
+    <class-form-linkage v-if="currentClass === 'form-linkage'"></class-form-linkage>
+    <class-form-my-component v-if="currentClass === 'form-my-component'"></class-form-my-component>
+    <class-form-action v-if="currentClass === 'form-action'"></class-form-action>
+    <class-form-disabled v-if="currentClass === 'form-disabled'"></class-form-disabled>
+    <class-form-share v-if="currentClass === 'form-share'"></class-form-share>
+    <class-form-custome-validate v-if="currentClass === 'form-custome-validate'"></class-form-custome-validate>
+    <!-- Fomr end-->
   </div>
 </template>
 
@@ -33,11 +47,22 @@ import ClassTableOrderFilter from './class-table-orderAndfilter'
 import ClassTableOrderFilterQianduan from './class-table-orderAndfilter-qianduan'
 import ClassTableEditDanyuange from './class-table-edit-danyuange'
 import ClassTableEditHang from './class-table-edit-hang'
+import ClassTableOuter from './class-table-outer'
+
+import ClassForm from './class-form'
+import ClassFormValidate from './class-form-validate'
+import ClassFormId from './class-form-id'
+import ClassFormLinkage from './class-form-linkage'
+import ClassFormMyComponent from './class-form-myComponent'
+import ClassFormAction from './class-form-action'
+import ClassFormDisabled from './class-form-disabled'
+import ClassFormShare from './class-form-share'
+import ClassFormCustomeValidate from './class-form-custome-validate'
 
 export default {
   data() {
     return {
-      currentClass: 'table-edit-hang'
+      currentClass: 'form-custome-validate'
     }
   },
 
@@ -52,6 +77,17 @@ export default {
 
     ClassTableEditDanyuange,
     ClassTableEditHang,
+    ClassTableOuter,
+
+    ClassForm,
+    ClassFormValidate,
+    ClassFormId,
+    ClassFormLinkage,
+    ClassFormMyComponent,
+    ClassFormAction,
+    ClassFormDisabled,
+    ClassFormShare,
+    ClassFormCustomeValidate,
   }
 }
 </script>
