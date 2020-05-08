@@ -29,7 +29,7 @@
     <class-form-validate v-if="currentClass === 'form-validate'"></class-form-validate>
     <class-form-id v-if="currentClass === 'form-id'"></class-form-id>
     <class-form-linkage v-if="currentClass === 'form-linkage'"></class-form-linkage>
-    <class-form-my-component v-if="currentClass === 'form-my-component'"></class-form-my-component>
+    <class-form-my-component v-if="currentClass === 'form-myComponent'"></class-form-my-component>
     <class-form-action v-if="currentClass === 'form-action'"></class-form-action>
     <class-form-disabled v-if="currentClass === 'form-disabled'"></class-form-disabled>
     <class-form-share v-if="currentClass === 'form-share'"></class-form-share>
@@ -62,7 +62,7 @@ import ClassFormCustomeValidate from './class-form-custome-validate'
 export default {
   data() {
     return {
-      currentClass: 'form-custome-validate'
+      currentClass: 'form-share'
     }
   },
 

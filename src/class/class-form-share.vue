@@ -76,6 +76,31 @@ export default {
       openModal: false,
 
       type: 'create', // create || edit
+
+      /**
+       * 重要: 在写FAQ后台项目 在添加分类 AddCategory.vue 中, 写的是如下初始数据
+       * 
+       * const formData = {
+       *  firstlevel: {
+       *    id: 0,
+       *    title: '',
+       *  },
+       *  secondlevel: [
+       *    {
+       *      id: 0,
+       *      title: '',
+       *    }
+       *  ]
+       * };
+       * 
+       * 用 this.form = Objetc.assign({}, formData);输入数据, 再打开清空不了
+       * 
+       * 原因是: Object.assign() 是浅拷贝, 仅拷贝了第一层, 
+       * 
+       * 解决: 用copyObject JSON.parse(JSON.stringify)
+       *
+       * 
+       */
       
       // Object.assign 不会破坏原有对象 formData
       form: Object.assign({}, formData),
