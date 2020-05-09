@@ -4,7 +4,7 @@
     <br><br>
 
     <Form ref="form" :model="form" :rules="rules" :label-width="70">
-      <!-- prop用于校验 -->
+      <!-- 重要: prop用于校验 对应所绑定的form中所对应的字段 -->
       <FormItem label="输入框" prop="input">
         <!-- Input 开启 number 后, 输入的数字才是真正的数字, 不开启, 输入数字其实为字符串-->
         <Input v-model="form.input" />

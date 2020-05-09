@@ -13,13 +13,19 @@
     <!-- <form-demo1></form-demo1> -->
     <!-- <form-demo2></form-demo2> -->
     <!-- <form-demo3></form-demo3> -->
+    <form-validate></form-validate>
     <!-- form end-->
 
     <!-- modal start-->
     <!-- <modal-demo1></modal-demo1> -->
     <!-- modal end-->
 
-    <class></class>
+    <!-- checkbox start -->
+    <!-- <checkbox-demo1></checkbox-demo1> -->
+    <!-- <checkbox-demo2></checkbox-demo2> -->
+    <!-- checkbox end -->
+
+    <!-- <class></class> -->
   </div>
 </template>
 
@@ -32,8 +38,12 @@ import TableRender from '@/demo/table/render.vue'
 import FormDemo1 from '@/demo/form/demo1.vue'
 import FormDemo2 from '@/demo/form/demo2.vue'
 import FormDemo3 from '@/demo/form/demo3.vue'
+import FormValidate from '@/demo/form/validate.vue'
 
 import ModalDemo1 from '@/demo/modal/demo1.vue'
+
+import CheckboxDemo1 from '@/demo/checkbox/demo1.vue'
+import CheckboxDemo2 from '@/demo/checkbox/demo2.vue'
 
 import Class from '@/class/index.vue'
 
@@ -48,8 +58,12 @@ export default {
     FormDemo1,
     FormDemo2,
     FormDemo3,
+    FormValidate,
 
     ModalDemo1,
+
+    CheckboxDemo1,
+    CheckboxDemo2,
     
     Class,
   }

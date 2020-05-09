@@ -62,7 +62,7 @@ import ClassFormCustomeValidate from './class-form-custome-validate'
 export default {
   data() {
     return {
-      currentClass: 'form-share'
+      currentClass: 'form-myComponent'
     }
   },
 
