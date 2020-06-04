@@ -13,7 +13,7 @@
     <!-- <form-demo1></form-demo1> -->
     <!-- <form-demo2></form-demo2> -->
     <!-- <form-demo3></form-demo3> -->
-    <form-validate></form-validate>
+    <!-- <form-validate></form-validate> -->
     <!-- form end-->
 
     <!-- modal start-->
@@ -24,6 +24,10 @@
     <!-- <checkbox-demo1></checkbox-demo1> -->
     <!-- <checkbox-demo2></checkbox-demo2> -->
     <!-- checkbox end -->
+
+    <!-- menu start-->
+    <third-level-Menu></third-level-Menu>
+    <!-- menu start-->
 
     <!-- <class></class> -->
   </div>
@@ -45,6 +49,9 @@ import ModalDemo1 from '@/demo/modal/demo1.vue'
 import CheckboxDemo1 from '@/demo/checkbox/demo1.vue'
 import CheckboxDemo2 from '@/demo/checkbox/demo2.vue'
 
+import ThirdLevelMenu from '@/demo/menu/thirdLevelMenu.vue'
+
+
 import Class from '@/class/index.vue'
 
 export default {
@@ -65,6 +72,8 @@ export default {
     CheckboxDemo1,
     CheckboxDemo2,
     
+    ThirdLevelMenu,
+
     Class,
   }
 }
