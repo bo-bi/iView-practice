@@ -13,7 +13,7 @@
     <!-- <form-demo1></form-demo1> -->
     <!-- <form-demo2></form-demo2> -->
     <!-- <form-demo3></form-demo3> -->
-    <!-- <form-validate></form-validate> -->
+    <form-validate></form-validate>
     <!-- form end-->
 
     <!-- modal start-->
@@ -26,7 +26,7 @@
     <!-- checkbox end -->
 
     <!-- menu start-->
-    <third-level-Menu></third-level-Menu>
+    <!-- <third-level-Menu></third-level-Menu> -->
     <!-- menu start-->
 
     <!-- <class></class> -->

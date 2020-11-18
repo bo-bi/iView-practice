@@ -13,5 +13,3 @@ this.$nextTick(() => {
   this.$refs.menus.updateOpened();
   this.$refs.menus.updateActiveName();
 })
-
-
